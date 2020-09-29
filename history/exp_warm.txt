@@ -1,0 +1,340 @@
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5
+9412608/9406464 [==============================] - 0s 0us/step
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+mobilenetv2_1.00_224 (Functi (None, 7, 7, 1280)        2257984   
+_________________________________________________________________
+flatten (Flatten)            (None, 62720)             0         
+_________________________________________________________________
+dense (Dense)                (None, 6)                 376326    
+=================================================================
+Total params: 2,634,310
+Trainable params: 376,326
+Non-trainable params: 2,257,984
+_________________________________________________________________
+
+Epoch 00001: LearningRateScheduler reducing learning rate to 0.0.
+Epoch 1/80
+      1/Unknown - 0s 127us/step - loss: 2.9748 - categorical_accuracy: 0.0875WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+      2/Unknown - 0s 153ms/step - loss: 3.0504 - categorical_accuracy: 0.1125WARNING:tensorflow:Callbacks method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0877s vs `on_train_batch_end` time: 0.2142s). Check your callbacks.
+176/176 [==============================] - 49s 281ms/step - loss: 2.1099 - categorical_accuracy: 0.1511 - val_loss: 2.1165 - val_categorical_accuracy: 0.1540
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 1e-05.
+Epoch 2/80
+176/176 [==============================] - 33s 185ms/step - loss: 1.8145 - categorical_accuracy: 0.5447 - val_loss: 1.7966 - val_categorical_accuracy: 0.3853
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 2e-05.
+Epoch 3/80
+176/176 [==============================] - 32s 184ms/step - loss: 0.9190 - categorical_accuracy: 0.7049 - val_loss: 0.9752 - val_categorical_accuracy: 0.6083
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 3.0000000000000004e-05.
+Epoch 4/80
+176/176 [==============================] - 32s 183ms/step - loss: 0.7033 - categorical_accuracy: 0.7534 - val_loss: 0.9198 - val_categorical_accuracy: 0.6443
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 4e-05.
+Epoch 5/80
+176/176 [==============================] - 32s 184ms/step - loss: 0.7598 - categorical_accuracy: 0.7569 - val_loss: 0.5370 - val_categorical_accuracy: 0.7157
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 5e-05.
+Epoch 6/80
+176/176 [==============================] - 32s 181ms/step - loss: 0.6194 - categorical_accuracy: 0.7801 - val_loss: 0.7677 - val_categorical_accuracy: 0.6897
+
+Epoch 00007: LearningRateScheduler reducing learning rate to 6.000000000000001e-05.
+Epoch 7/80
+176/176 [==============================] - 31s 179ms/step - loss: 0.7157 - categorical_accuracy: 0.7638 - val_loss: 2.4233 - val_categorical_accuracy: 0.5183
+
+Epoch 00008: LearningRateScheduler reducing learning rate to 7e-05.
+Epoch 8/80
+176/176 [==============================] - 31s 178ms/step - loss: 0.9380 - categorical_accuracy: 0.7671 - val_loss: 1.0077 - val_categorical_accuracy: 0.6930
+
+Epoch 00009: LearningRateScheduler reducing learning rate to 8e-05.
+Epoch 9/80
+176/176 [==============================] - 31s 174ms/step - loss: 0.9233 - categorical_accuracy: 0.7602 - val_loss: 1.5578 - val_categorical_accuracy: 0.6520
+
+Epoch 00010: LearningRateScheduler reducing learning rate to 9e-05.
+Epoch 10/80
+176/176 [==============================] - 30s 172ms/step - loss: 0.9136 - categorical_accuracy: 0.7731 - val_loss: 0.9008 - val_categorical_accuracy: 0.7243
+
+Epoch 00011: LearningRateScheduler reducing learning rate to 0.0001.
+Epoch 11/80
+176/176 [==============================] - 30s 173ms/step - loss: 0.8802 - categorical_accuracy: 0.7820 - val_loss: 1.6040 - val_categorical_accuracy: 0.6703
+
+Epoch 00012: LearningRateScheduler reducing learning rate to 3.3287108369807955e-05.
+Epoch 12/80
+176/176 [==============================] - 30s 172ms/step - loss: 0.8171 - categorical_accuracy: 0.7675 - val_loss: 1.8964 - val_categorical_accuracy: 0.6920
+
+Epoch 00013: LearningRateScheduler reducing learning rate to 3.0119421191220204e-05.
+Epoch 13/80
+176/176 [==============================] - 30s 171ms/step - loss: 1.1419 - categorical_accuracy: 0.7713 - val_loss: 3.4123 - val_categorical_accuracy: 0.6343
+
+Epoch 00014: LearningRateScheduler reducing learning rate to 2.725317930340126e-05.
+Epoch 14/80
+176/176 [==============================] - 30s 171ms/step - loss: 1.3125 - categorical_accuracy: 0.7399 - val_loss: 2.8869 - val_categorical_accuracy: 0.6950
+
+Epoch 00015: LearningRateScheduler reducing learning rate to 2.4659696394160646e-05.
+Epoch 15/80
+176/176 [==============================] - 31s 174ms/step - loss: 1.1427 - categorical_accuracy: 0.7597 - val_loss: 3.1637 - val_categorical_accuracy: 0.6460
+
+Epoch 00016: LearningRateScheduler reducing learning rate to 2.2313016014842984e-05.
+Epoch 16/80
+176/176 [==============================] - 30s 171ms/step - loss: 1.1256 - categorical_accuracy: 0.7489 - val_loss: 2.6303 - val_categorical_accuracy: 0.6773
+
+Epoch 00017: LearningRateScheduler reducing learning rate to 2.018965179946554e-05.
+Epoch 17/80
+176/176 [==============================] - 30s 170ms/step - loss: 0.9932 - categorical_accuracy: 0.7606 - val_loss: 2.4122 - val_categorical_accuracy: 0.6693
+
+Epoch 00018: LearningRateScheduler reducing learning rate to 1.8268352405273462e-05.
+Epoch 18/80
+176/176 [==============================] - 29s 167ms/step - loss: 0.9223 - categorical_accuracy: 0.7589 - val_loss: 1.9901 - val_categorical_accuracy: 0.6880
+
+Epoch 00019: LearningRateScheduler reducing learning rate to 1.6529888822158655e-05.
+Epoch 19/80
+176/176 [==============================] - 30s 168ms/step - loss: 0.8235 - categorical_accuracy: 0.7629 - val_loss: 1.6227 - val_categorical_accuracy: 0.7113
+
+Epoch 00020: LearningRateScheduler reducing learning rate to 1.4956861922263504e-05.
+Epoch 20/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.7213 - categorical_accuracy: 0.7669 - val_loss: 1.3544 - val_categorical_accuracy: 0.7290
+
+Epoch 00021: LearningRateScheduler reducing learning rate to 1.353352832366127e-05.
+Epoch 21/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.6380 - categorical_accuracy: 0.7708 - val_loss: 1.1740 - val_categorical_accuracy: 0.7430
+
+Epoch 00022: LearningRateScheduler reducing learning rate to 1.2245642825298192e-05.
+Epoch 22/80
+176/176 [==============================] - 29s 167ms/step - loss: 0.5746 - categorical_accuracy: 0.7765 - val_loss: 1.0744 - val_categorical_accuracy: 0.7467
+
+Epoch 00023: LearningRateScheduler reducing learning rate to 1.1080315836233388e-05.
+Epoch 23/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.5320 - categorical_accuracy: 0.7791 - val_loss: 0.9918 - val_categorical_accuracy: 0.7467
+
+Epoch 00024: LearningRateScheduler reducing learning rate to 1.0025884372280372e-05.
+Epoch 24/80
+176/176 [==============================] - 29s 166ms/step - loss: 0.4949 - categorical_accuracy: 0.7809 - val_loss: 0.9059 - val_categorical_accuracy: 0.7433
+
+Epoch 00025: LearningRateScheduler reducing learning rate to 9.071795328941247e-06.
+Epoch 25/80
+176/176 [==============================] - 29s 167ms/step - loss: 0.4565 - categorical_accuracy: 0.7842 - val_loss: 0.8294 - val_categorical_accuracy: 0.7433
+
+Epoch 00026: LearningRateScheduler reducing learning rate to 8.20849986238988e-06.
+Epoch 26/80
+176/176 [==============================] - 29s 166ms/step - loss: 0.4205 - categorical_accuracy: 0.7878 - val_loss: 0.7680 - val_categorical_accuracy: 0.7400
+
+Epoch 00027: LearningRateScheduler reducing learning rate to 7.427357821433388e-06.
+Epoch 27/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.3898 - categorical_accuracy: 0.7913 - val_loss: 0.7207 - val_categorical_accuracy: 0.7413
+
+Epoch 00028: LearningRateScheduler reducing learning rate to 6.720551273974976e-06.
+Epoch 28/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.3651 - categorical_accuracy: 0.7936 - val_loss: 0.6837 - val_categorical_accuracy: 0.7423
+
+Epoch 00029: LearningRateScheduler reducing learning rate to 6.081006262521795e-06.
+Epoch 29/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.3451 - categorical_accuracy: 0.7947 - val_loss: 0.6542 - val_categorical_accuracy: 0.7447
+
+Epoch 00030: LearningRateScheduler reducing learning rate to 5.502322005640721e-06.
+Epoch 30/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.3286 - categorical_accuracy: 0.7951 - val_loss: 0.6306 - val_categorical_accuracy: 0.7470
+
+Epoch 00031: LearningRateScheduler reducing learning rate to 4.978706836786395e-06.
+Epoch 31/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.3147 - categorical_accuracy: 0.7949 - val_loss: 0.6116 - val_categorical_accuracy: 0.7483
+
+Epoch 00032: LearningRateScheduler reducing learning rate to 4.50492023935578e-06.
+Epoch 32/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.3030 - categorical_accuracy: 0.7943 - val_loss: 0.5959 - val_categorical_accuracy: 0.7510
+
+Epoch 00033: LearningRateScheduler reducing learning rate to 4.0762203978366214e-06.
+Epoch 33/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.2929 - categorical_accuracy: 0.7952 - val_loss: 0.5829 - val_categorical_accuracy: 0.7543
+
+Epoch 00034: LearningRateScheduler reducing learning rate to 3.6883167401239998e-06.
+Epoch 34/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2841 - categorical_accuracy: 0.7959 - val_loss: 0.5718 - val_categorical_accuracy: 0.7567
+
+Epoch 00035: LearningRateScheduler reducing learning rate to 3.337326996032607e-06.
+Epoch 35/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2761 - categorical_accuracy: 0.7969 - val_loss: 0.5621 - val_categorical_accuracy: 0.7593
+
+Epoch 00036: LearningRateScheduler reducing learning rate to 3.0197383422318503e-06.
+Epoch 36/80
+176/176 [==============================] - 29s 166ms/step - loss: 0.2688 - categorical_accuracy: 0.7975 - val_loss: 0.5536 - val_categorical_accuracy: 0.7607
+
+Epoch 00037: LearningRateScheduler reducing learning rate to 2.732372244729256e-06.
+Epoch 37/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2621 - categorical_accuracy: 0.7975 - val_loss: 0.5460 - val_categorical_accuracy: 0.7610
+
+Epoch 00038: LearningRateScheduler reducing learning rate to 2.472352647033939e-06.
+Epoch 38/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2559 - categorical_accuracy: 0.7987 - val_loss: 0.5393 - val_categorical_accuracy: 0.7620
+
+Epoch 00039: LearningRateScheduler reducing learning rate to 2.2370771856165594e-06.
+Epoch 39/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2501 - categorical_accuracy: 0.7998 - val_loss: 0.5333 - val_categorical_accuracy: 0.7643
+
+Epoch 00040: LearningRateScheduler reducing learning rate to 2.0241911445804383e-06.
+Epoch 40/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2447 - categorical_accuracy: 0.7994 - val_loss: 0.5280 - val_categorical_accuracy: 0.7647
+
+Epoch 00041: LearningRateScheduler reducing learning rate to 1.8315638888734179e-06.
+Epoch 41/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2397 - categorical_accuracy: 0.7994 - val_loss: 0.5233 - val_categorical_accuracy: 0.7647
+
+Epoch 00042: LearningRateScheduler reducing learning rate to 1.6572675401761238e-06.
+Epoch 42/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.2351 - categorical_accuracy: 0.8002 - val_loss: 0.5192 - val_categorical_accuracy: 0.7650
+
+Epoch 00043: LearningRateScheduler reducing learning rate to 1.4995576820477704e-06.
+Epoch 43/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.2309 - categorical_accuracy: 0.8008 - val_loss: 0.5156 - val_categorical_accuracy: 0.7657
+
+Epoch 00044: LearningRateScheduler reducing learning rate to 1.3568559012200934e-06.
+Epoch 44/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.2271 - categorical_accuracy: 0.8014 - val_loss: 0.5124 - val_categorical_accuracy: 0.7657
+
+Epoch 00045: LearningRateScheduler reducing learning rate to 1.2277339903068436e-06.
+Epoch 45/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2237 - categorical_accuracy: 0.8019 - val_loss: 0.5096 - val_categorical_accuracy: 0.7653
+
+Epoch 00046: LearningRateScheduler reducing learning rate to 1.1108996538242308e-06.
+Epoch 46/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2205 - categorical_accuracy: 0.8028 - val_loss: 0.5072 - val_categorical_accuracy: 0.7650
+
+Epoch 00047: LearningRateScheduler reducing learning rate to 1.0051835744633576e-06.
+Epoch 47/80
+176/176 [==============================] - 29s 167ms/step - loss: 0.2176 - categorical_accuracy: 0.8024 - val_loss: 0.5050 - val_categorical_accuracy: 0.7657
+
+Epoch 00048: LearningRateScheduler reducing learning rate to 9.095277101695816e-07.
+Epoch 48/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.2151 - categorical_accuracy: 0.8028 - val_loss: 0.5031 - val_categorical_accuracy: 0.7657
+
+Epoch 00049: LearningRateScheduler reducing learning rate to 8.229747049020023e-07.
+Epoch 49/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2127 - categorical_accuracy: 0.8032 - val_loss: 0.5014 - val_categorical_accuracy: 0.7660
+
+Epoch 00050: LearningRateScheduler reducing learning rate to 7.446583070924338e-07.
+Epoch 50/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.2106 - categorical_accuracy: 0.8035 - val_loss: 0.4999 - val_categorical_accuracy: 0.7657
+
+Epoch 00051: LearningRateScheduler reducing learning rate to 6.737946999085468e-07.
+Epoch 51/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.2087 - categorical_accuracy: 0.8040 - val_loss: 0.4986 - val_categorical_accuracy: 0.7653
+
+Epoch 00052: LearningRateScheduler reducing learning rate to 6.096746565515633e-07.
+Epoch 52/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2070 - categorical_accuracy: 0.8043 - val_loss: 0.4974 - val_categorical_accuracy: 0.7650
+
+Epoch 00053: LearningRateScheduler reducing learning rate to 5.516564420760772e-07.
+Epoch 53/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.2055 - categorical_accuracy: 0.8044 - val_loss: 0.4964 - val_categorical_accuracy: 0.7650
+
+Epoch 00054: LearningRateScheduler reducing learning rate to 4.991593906910213e-07.
+Epoch 54/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2041 - categorical_accuracy: 0.8045 - val_loss: 0.4954 - val_categorical_accuracy: 0.7650
+
+Epoch 00055: LearningRateScheduler reducing learning rate to 4.516580942612666e-07.
+Epoch 55/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.2028 - categorical_accuracy: 0.8046 - val_loss: 0.4946 - val_categorical_accuracy: 0.7650
+
+Epoch 00056: LearningRateScheduler reducing learning rate to 4.0867714384640666e-07.
+Epoch 56/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.2017 - categorical_accuracy: 0.8048 - val_loss: 0.4939 - val_categorical_accuracy: 0.7657
+
+Epoch 00057: LearningRateScheduler reducing learning rate to 3.697863716482929e-07.
+Epoch 57/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.2006 - categorical_accuracy: 0.8048 - val_loss: 0.4932 - val_categorical_accuracy: 0.7653
+
+Epoch 00058: LearningRateScheduler reducing learning rate to 3.345965457471272e-07.
+Epoch 58/80
+176/176 [==============================] - 29s 166ms/step - loss: 0.1997 - categorical_accuracy: 0.8048 - val_loss: 0.4926 - val_categorical_accuracy: 0.7653
+
+Epoch 00059: LearningRateScheduler reducing learning rate to 3.027554745375813e-07.
+Epoch 59/80
+176/176 [==============================] - 28s 162ms/step - loss: 0.1989 - categorical_accuracy: 0.8049 - val_loss: 0.4921 - val_categorical_accuracy: 0.7653
+
+Epoch 00060: LearningRateScheduler reducing learning rate to 2.7394448187683684e-07.
+Epoch 60/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1981 - categorical_accuracy: 0.8048 - val_loss: 0.4916 - val_categorical_accuracy: 0.7650
+
+Epoch 00061: LearningRateScheduler reducing learning rate to 2.478752176666359e-07.
+Epoch 61/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.1974 - categorical_accuracy: 0.8049 - val_loss: 0.4912 - val_categorical_accuracy: 0.7650
+
+Epoch 00062: LearningRateScheduler reducing learning rate to 2.2428677194858012e-07.
+Epoch 62/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1968 - categorical_accuracy: 0.8049 - val_loss: 0.4908 - val_categorical_accuracy: 0.7650
+
+Epoch 00063: LearningRateScheduler reducing learning rate to 2.0294306362957342e-07.
+Epoch 63/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1963 - categorical_accuracy: 0.8050 - val_loss: 0.4905 - val_categorical_accuracy: 0.7647
+
+Epoch 00064: LearningRateScheduler reducing learning rate to 1.8363047770289057e-07.
+Epoch 64/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1957 - categorical_accuracy: 0.8050 - val_loss: 0.4901 - val_categorical_accuracy: 0.7647
+
+Epoch 00065: LearningRateScheduler reducing learning rate to 1.661557273173934e-07.
+Epoch 65/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1953 - categorical_accuracy: 0.8050 - val_loss: 0.4899 - val_categorical_accuracy: 0.7647
+
+Epoch 00066: LearningRateScheduler reducing learning rate to 1.5034391929775724e-07.
+Epoch 66/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1949 - categorical_accuracy: 0.8051 - val_loss: 0.4896 - val_categorical_accuracy: 0.7647
+
+Epoch 00067: LearningRateScheduler reducing learning rate to 1.3603680375478928e-07.
+Epoch 67/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1945 - categorical_accuracy: 0.8052 - val_loss: 0.4894 - val_categorical_accuracy: 0.7647
+
+Epoch 00068: LearningRateScheduler reducing learning rate to 1.230911902673481e-07.
+Epoch 68/80
+176/176 [==============================] - 29s 166ms/step - loss: 0.1942 - categorical_accuracy: 0.8052 - val_loss: 0.4892 - val_categorical_accuracy: 0.7647
+
+Epoch 00069: LearningRateScheduler reducing learning rate to 1.1137751478448024e-07.
+Epoch 69/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1939 - categorical_accuracy: 0.8053 - val_loss: 0.4890 - val_categorical_accuracy: 0.7647
+
+Epoch 00070: LearningRateScheduler reducing learning rate to 1.0077854290485104e-07.
+Epoch 70/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1936 - categorical_accuracy: 0.8054 - val_loss: 0.4888 - val_categorical_accuracy: 0.7647
+
+Epoch 00071: LearningRateScheduler reducing learning rate to 9.118819655545163e-08.
+Epoch 71/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1933 - categorical_accuracy: 0.8055 - val_loss: 0.4887 - val_categorical_accuracy: 0.7647
+
+Epoch 00072: LearningRateScheduler reducing learning rate to 8.251049232659039e-08.
+Epoch 72/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1931 - categorical_accuracy: 0.8058 - val_loss: 0.4885 - val_categorical_accuracy: 0.7647
+
+Epoch 00073: LearningRateScheduler reducing learning rate to 7.465858083766792e-08.
+Epoch 73/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.1929 - categorical_accuracy: 0.8058 - val_loss: 0.4884 - val_categorical_accuracy: 0.7650
+
+Epoch 00074: LearningRateScheduler reducing learning rate to 6.755387751938438e-08.
+Epoch 74/80
+176/176 [==============================] - 29s 165ms/step - loss: 0.1927 - categorical_accuracy: 0.8058 - val_loss: 0.4883 - val_categorical_accuracy: 0.7650
+
+Epoch 00075: LearningRateScheduler reducing learning rate to 6.112527611295724e-08.
+Epoch 75/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1926 - categorical_accuracy: 0.8059 - val_loss: 0.4882 - val_categorical_accuracy: 0.7650
+
+Epoch 00076: LearningRateScheduler reducing learning rate to 5.5308437014783364e-08.
+Epoch 76/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1924 - categorical_accuracy: 0.8060 - val_loss: 0.4881 - val_categorical_accuracy: 0.7650
+
+Epoch 00077: LearningRateScheduler reducing learning rate to 5.004514334406104e-08.
+Epoch 77/80
+176/176 [==============================] - 29s 164ms/step - loss: 0.1923 - categorical_accuracy: 0.8061 - val_loss: 0.4880 - val_categorical_accuracy: 0.7650
+
+Epoch 00078: LearningRateScheduler reducing learning rate to 4.52827182886797e-08.
+Epoch 78/80
+176/176 [==============================] - 29s 162ms/step - loss: 0.1922 - categorical_accuracy: 0.8061 - val_loss: 0.4880 - val_categorical_accuracy: 0.7650
+
+Epoch 00079: LearningRateScheduler reducing learning rate to 4.0973497897978646e-08.
+Epoch 79/80
+176/176 [==============================] - 29s 167ms/step - loss: 0.1920 - categorical_accuracy: 0.8062 - val_loss: 0.4879 - val_categorical_accuracy: 0.7650
+
+Epoch 00080: LearningRateScheduler reducing learning rate to 3.707435404590883e-08.
+Epoch 80/80
+176/176 [==============================] - 29s 163ms/step - loss: 0.1919 - categorical_accuracy: 0.8062 - val_loss: 0.4878 - val_categorical_accuracy: 0.7650
